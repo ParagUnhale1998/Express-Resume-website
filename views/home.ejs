@@ -1,0 +1,31 @@
+<%- include('./partials/header.ejs') %>
+
+  <body class="">
+    <div class="container-fluid bg-dark h-100">
+      <div class="row h-100">
+        <div class="col-sm-2">
+          <%- include('./partials/sidebar.ejs', {page_name: "Home"}) %>
+        </div>
+        <div class="col-sm-10 ">
+          <!-- /* main container */ -->
+          <div class="mt-5 ">
+            <div class="text-center ">
+              <img src="/images/image.png" width="250px" height="150px" alt="" class="img-thumbnail img-fluid rounded-pill">
+            </div>
+            <div class="mt-5 text-white text-justify mx=5">
+              <h1 class="fw-bold st-font">Hello,</h1>
+              <div class="px-4" style="line-height: 2rem;">
+              <p style="text-indent:100px">i am <b class="text-warning">Parag Unhale</b> having 5 years of full-stack web devlopment expreience for global business, i offer the technical expertise you are seeking for your devvlopment position.</p></div>
+            </div>
+          </div>
+          <div class="text-center">
+            <a href="/contact" class="btn btn-outline-warning m-5 text-capitalize">hire me </a>
+            <a href="/contact" class="btn btn-outline-info text-capitalize">contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./partials/footer.ejs') %>
+  </body>
+
+  </html>
